@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Henk Kin</Authors>
+    <Description>Newtonsoft.Json integration for Identifiers</Description>
+    <Copyright>Henk Kin</Copyright>
+    <PackageProjectUrl>https://github.com/HenkKin/Identifiers.Extensions.Newtonsoft.Json</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HenkKin/Identifiers.Extensions.Newtonsoft.Json.git</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Identifiers id int guid Newtonsoft Json integration Identifiers</PackageTags>
+    <Version>1.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Identifiers" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
