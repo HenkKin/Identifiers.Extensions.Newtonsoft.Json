@@ -46,11 +46,7 @@ public class Startup
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-		var defaultJsonSerializerSettings = new JsonSerializerSettings
-		{
-			Formatting = Formatting.Indented,
-			PreserveReferencesHandling = PreserveReferencesHandling.Objects,
-		};
+		var defaultJsonSerializerSettings = new JsonSerializerSettings();
 
 		// register both JsonConverters
 		defaultJsonSerializerSettings.Converters.Add(new IdentifierJsonConverter<int>());
