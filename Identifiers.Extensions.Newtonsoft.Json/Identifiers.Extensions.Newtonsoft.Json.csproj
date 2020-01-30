@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/HenkKin/Identifiers.Extensions.Newtonsoft.Json.git</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Identifiers id int guid Newtonsoft Json integration Identifiers</PackageTags>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <PackageReference Include="Identifiers" Version="1.0.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
 </Project>
