@@ -55,7 +55,7 @@ namespace Identifiers.Extensions.Newtonsoft.Json.Tests.JsonConverters
         [InlineData(int.MaxValue, "2147483647", typeof(int))]
         [InlineData(long.MaxValue, "9223372036854775807", typeof(long))]
         [InlineData(short.MaxValue, "32767", typeof(short))]
-        public void ReadJson_WhenCalled_ItShoulReadInnerValueOfIdentifier(object expectedResult, string value, Type valueType)
+        public void ReadJson_WhenCalled_ItShouldReadInnerValueOfIdentifier(object expectedResult, string value, Type valueType)
         {
             // Arrange
             var identifierJsonConverterType = typeof(NullableIdentifierJsonConverter<>).MakeGenericType(valueType);
