@@ -3,7 +3,6 @@ Identifiers.Extensions.Newtonsoft.Json
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/HenkKin/Identifiers.Extensions.Newtonsoft.Json?branch=master&svg=true)](https://ci.appveyor.com/project/HenkKin/Identifiers-Extensions-Newtonsoft-Json) 
 [![NuGet](https://img.shields.io/nuget/dt/Identifiers.Extensions.Newtonsoft.Json.svg)](https://www.nuget.org/packages/Identifiers.Extensions.Newtonsoft.Json) 
 [![NuGet](https://img.shields.io/nuget/vpre/Identifiers.Extensions.Newtonsoft.Json.svg)](https://www.nuget.org/packages/Identifiers.Extensions.Newtonsoft.Json)
-[![BCH compliance](https://bettercodehub.com/edge/badge/HenkKin/Identifiers.Extensions.Newtonsoft.Json?branch=master)](https://bettercodehub.com/)
 
 ### Summary
 
